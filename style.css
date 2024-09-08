@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #242424;
+}
+.container {
+  background: #fff;
+  color: #555;
+  width: 90%;
+  max-width: 500px;
+  padding: 10px 20px;
+  margin: 300px auto;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px rgba(0, 0, 0, 0.5);
+}
+.container input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+.container i {
+  font-size: 20px;
+  cursor: pointer;
+}
